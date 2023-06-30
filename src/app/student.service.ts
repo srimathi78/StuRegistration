@@ -27,9 +27,16 @@ export class StudentService {
 
     deleteStudent(id: any) {
       return this.http.delete<any>('https://localhost:7032/api/Student/DeleteStudent/'+ id);
-    }
+    }   
+
   }
 
+
+
+   // getStudentList(){
+    //   return this.http.get('https://localhost:7032/api/Student'+ '/GetStudent');
+
+    // }
        //const url = `${this. apiUrl}/${this.id}`;
 
 

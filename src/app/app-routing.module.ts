@@ -7,7 +7,8 @@ import { StudentEditComponent } from './student-edit/student-edit.component';
 
 
 const routes: Routes = [
-  {path:'Student', component:StudentComponent},
+  // {path:'Student', component:StudentDeleteComponent},
+  {path:'Add Student' , component:StudentDeleteComponent},
   {path: 'update/:id', component:StudentDeleteComponent},
   //{path: 'Add Student', component:StudentDeleteComponent},
   {path: '', redirectTo:'StudentDeleteComponent', pathMatch:'full'}

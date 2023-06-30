@@ -11,6 +11,8 @@ import { StudentEditComponent } from './student-edit/student-edit.component';
 import { StudentService } from './student.service';
 import { StudentComponent } from './student/student.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { StudentComponent } from './student/student.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule  
+    
+   
   ],
   providers: [StudentService],
   bootstrap: [AppComponent]
